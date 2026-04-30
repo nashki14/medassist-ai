@@ -60,7 +60,7 @@ Bahasa Indonesia baku. Data tidak ada tulis "Tidak disebutkan".`
           'X-Title': 'MedAssist AI',
         },
         body: JSON.stringify({
-          model: 'google/gemini-2.0-flash-001',
+          model: 'meta-llama/llama-3.1-8b-instruct:free',
           max_tokens: 1200,
           temperature: 0.1,
           messages: [
